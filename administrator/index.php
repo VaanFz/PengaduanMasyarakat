@@ -4,8 +4,8 @@
 // melakukan Query dari username dan password yang didapatkan di form (html) ke mysql
 if(isset($_POST['login'])) {
     SESSION_START();
-/*melakukan konseksi ke database*/
-include '../lib/database.php';
+    /*melakukan konseksi ke database*/
+    include '../lib/database.php';
 
 $username = $_POST['username'];
 $password = $_POST['password'];
