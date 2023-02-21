@@ -28,7 +28,7 @@ $getData = mysqli_fetch_all($execQuery, MYSQLI_ASSOC);
             <table class="table table-striped">
                 <thead>
                     <tr>
-                        <th>#</th>
+                        <th>No</th>
                         <th>Nama Pengadu</th>
                         <th>Tanggal Aduan</th>
                         <th>Foto Aduan</th>

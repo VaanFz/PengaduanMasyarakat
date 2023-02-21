@@ -34,9 +34,6 @@ var_dump($query);
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
         <div class="navbar-nav">
-            <li class="nav-item">
-                <a href="../index.php" >Login</a>
-            </li>
         </div>
     </div>
 </nav>
@@ -70,6 +67,9 @@ var_dump($query);
 
                 <div class="mb-3">
                 <input type="submit" name="registrasi" value="registrasi" class="form-control btn btn-primary">
+                </div>
+                <div>
+                    <span>Sudah Punya Akun? </span><a href="../index.php" >Login</a>
                 </div>
             </form>
             </div>

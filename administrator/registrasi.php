@@ -41,9 +41,6 @@ if ($execQuery) {
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
         <div class="navbar-nav">
-            <li class="nav-item">
-                <a href="./index.php" >Login</a>
-            </li>
         </div>
     </div>
 </nav>
@@ -51,7 +48,7 @@ if ($execQuery) {
     <div class="row justify-content-center align-midlle">
         <div class="card col-lg-6">
             <div class="card-header">
-                <center>Registrasi Masyarakat</center>
+                <center>Registrasi Administrator</center>
             </div>
             <div class="card-body">
             <form method="POST">
@@ -81,6 +78,9 @@ if ($execQuery) {
 
                 <div class="mb-3">
                      <input type="submit" name="registrasi" value="REGISTRASI"  class="form-control btn btn-success">
+                </div>
+                <div class="mb-3">
+                    <span>Sudah Punya Akun? </span><a href="./index.php" >Login</a>
                 </div>
             </form>
             </div>

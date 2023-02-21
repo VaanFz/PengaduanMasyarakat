@@ -61,8 +61,10 @@ if ($numRows == 1) {
                     <div class="mb-3">
                         <input type="submit" name="login" value="Login" class="form-control btn btn-success" > 
                     </div>
+                    <div>
+                        <span>Belum Punya Akun? </span><a href="./registrasi.php">Daftar</a>
+                    </div>
                 </form>
-                <a href="./registrasi.php">Daftar</a>
                 </div>
             </div>
         </div>
